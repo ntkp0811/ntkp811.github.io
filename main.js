@@ -1,9 +1,8 @@
 var players = document.getElementsByClassName('player');
-console.log(players)
 setProgress(.4, players[0]);
 
 var t = 0;
-var update = requestAnimationFrame.bind(null, function () {
+var update = requestAnimationFrame.bind(null, function() {
     var p = easeInOutCubic(t += 0.01);
     setProgress(p, players[0]);
     if (t < 1) return update();

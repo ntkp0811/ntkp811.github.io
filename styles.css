@@ -8,6 +8,11 @@
     src: url('./fonts/TingTong.ttf');
 }
 
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('./fonts/CaviarDreams.ttf')
+}
+
 .container {
     padding-top: 24px;
 }
@@ -86,6 +91,34 @@
     font-family: 'TingTong';
 }
 
+#contacts {
+    margin-top: 1.5rem;
+    font-size: 0.6rem;
+    font-family: 'CaviarDreams';
+    font-weight: bold;
+}
+
+.ta-right {
+    text-align: right;
+}
+
+.icon-contact {
+    height: 18px;
+}
+
+.icon-left {
+    margin-right: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
 @media (min-width: 576px) {
     #outer-circle {
         height: 200px;
@@ -130,8 +163,21 @@
         color: #9997f4;
         font-size: 2.5rem;
     }
+    #contacts {
+        font-size: 1rem;
+    }
+    .icon-contact {
+        height: 25px;
+    }
 }
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    div#contacts>div {
+        text-align: center;
+    }
+    .icon-contact {
+        height: 35px;
+    }
+}
 
 @media (min-width: 1200px) {}
