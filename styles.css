@@ -13,6 +13,11 @@
     src: url('./fonts/CaviarDreams.ttf')
 }
 
+@font-face {
+    font-family: 'DecourLight';
+    src: url('./fonts/DecourCnd-Ultralight.otf') 
+}
+
 .container {
     padding-top: 24px;
 }
@@ -119,6 +124,29 @@ a:visited {
     color: black;
 }
 
+/* #allpro {
+    position: relative;
+} */
+
+#headpro {
+    width: 50%;
+    /* position: absolute; */
+    font-family: 'Gogoia';
+    font-size: 1.7rem;
+    border-style: double;
+    
+    
+}
+
+#profile {
+    font-family: 'CaviarDreams';
+    font-size: 1rem;
+    position: relative;
+}
+
+
+
+
 @media (min-width: 576px) {
     #outer-circle {
         height: 200px;
@@ -181,3 +209,4 @@ a:visited {
 }
 
 @media (min-width: 1200px) {}
+
