@@ -124,24 +124,28 @@ a:visited {
     color: black;
 }
 
-/* #allpro {
+.profile {
     position: relative;
-} */
+}
 
-#headpro {
+.head {
     width: 50%;
-    /* position: absolute; */
+    left : 25%;
+    position: absolute;
     font-family: 'Gogoia';
-    font-size: 1.7rem;
+    font-size: 2.2rem;
     border-style: double;
+    padding-top: 0.1rem;
+    
+    top: -28px;
     
     
 }
 
-#profile {
+.detail {
     font-family: 'CaviarDreams';
     font-size: 1rem;
-    position: relative;
+    /* position: relative; */
 }
 
 
